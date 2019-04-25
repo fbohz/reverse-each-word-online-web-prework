@@ -1,6 +1,6 @@
 def reverse_each_word(string)
   newArray = string.split(" ") #convert to array
-  result = [] #will return the result first as an array then string
+  result = [] #will receive the reversed result first as an array then return as string
   newArray.collect do |x|
   result << x.reverse
   
